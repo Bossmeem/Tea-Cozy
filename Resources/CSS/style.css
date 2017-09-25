@@ -26,6 +26,7 @@ header {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 0px;
+  background-color: black;
 }
 
 header img {
@@ -50,13 +51,14 @@ nav {
   margin-top: 69px;
   width: 1200px;
   height: 700px;
-  background-image: url();
+  background-image: url("../Images/img-mission-background.jpg");
   text-align: center;
   align-items: center;
 }
 
 .pitch {
   width: 1200px;
+  background-color: black;
 }
 
 .tea {
@@ -66,8 +68,33 @@ nav {
 .locations {
   height: 500px;
   width: 1200px;
+  background-image: url("../Images/img-locations-background.jpg");
+  padding-bottom: 70px;
 }
 
+.local {
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+}
 span h2 {
   margin-top: 80px;
+}
+
+.contact {
+  padding-top: 0px;
+  margin-top: 0px;
+  height: 200px;
+}
+
+footer {
+  display: flex;
+  text-align: left;
+  justify-content: flex-start;
+  width: 100%;
+  z-index: 5;
+}
+
+.copy {
+  margin-left: 20px;
 }
