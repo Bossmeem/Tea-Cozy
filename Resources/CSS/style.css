@@ -66,20 +66,27 @@ nav {
 }
 
 .locations {
-  display: ;
   height: 500px;
   width: 1200px;
-  justify-content: space-around;
-  flex-flow: row wrap;
   background-image: url("../Images/img-locations-background.jpg");
   padding-bottom: 70px;
 }
 
 .local {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 300px;
   background-color: black;
   opacity: 1;
-  margin: 15px auto;
+  margin: 15px 20px;
+  
+}
+
+.stores {
+  display: flex;
+  justify-content: center;
+
 }
 span h2 {
   margin-top: 80px;
