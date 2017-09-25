@@ -4,6 +4,10 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 div {
@@ -20,11 +24,13 @@ header {
   z-index: 5;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 0px;
 }
 
 header img {
   height: 50px;
   padding-left: 10px;
+
 
 }
 
@@ -36,4 +42,18 @@ nav {
 .linking span {
     text-decoration: underline;
     padding: 0 15px;
+}
+
+.mission {
+  display: flex;
+  margin-top: 69px;
+  width: 1200px;
+  height: 700px;
+  background-image: url();
+  text-align: center;
+  align-items: center;
+}
+
+.pitch {
+  width: 1200px;
 }
