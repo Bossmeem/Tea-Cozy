@@ -8,6 +8,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  text-align: center;
 }
 
 div {
@@ -56,4 +57,17 @@ nav {
 
 .pitch {
   width: 1200px;
+}
+
+.tea {
+  width: 1000px;
+}
+
+.locations {
+  height: 500px;
+  width: 1200px;
+}
+
+span h2 {
+  margin-top: 80px;
 }
