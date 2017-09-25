@@ -66,8 +66,11 @@ nav {
 }
 
 .locations {
+  display: ;
   height: 500px;
   width: 1200px;
+  justify-content: space-around;
+  flex-flow: row wrap;
   background-image: url("../Images/img-locations-background.jpg");
   padding-bottom: 70px;
 }
@@ -76,6 +79,7 @@ nav {
   width: 300px;
   background-color: black;
   opacity: 1;
+  margin: 15px auto;
 }
 span h2 {
   margin-top: 80px;
