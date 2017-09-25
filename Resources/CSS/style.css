@@ -9,3 +9,31 @@ body {
 div {
   border: 1px dotted red;
 }
+
+header {
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+
+}
+
+nav {
+  margin-right: 20px;
+
+}
+
+.linking span {
+    text-decoration: underline;
+    padding: 0 15px;
+}
