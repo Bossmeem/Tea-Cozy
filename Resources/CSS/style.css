@@ -67,9 +67,17 @@ nav {
 
 .TM {
   display: flex;
-  flex-flow: wrap;
-  justify-content: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
   flex: 1 1 1000px;
+}
+
+#drink {
+  margin-left: 175px;
+}
+
+#drinks {
+  margin-right: 175px;
 }
 
 .choices h4 {
@@ -109,7 +117,7 @@ span h2 {
   height: 200px;
 }
 
-footer {
+#copyright {
   display: flex;
   text-align: left;
   justify-content: flex-start;
