@@ -62,9 +62,14 @@ nav {
 }
 
 .tea {
+  display: flex;
   width: 1000px;
 }
 
+.choices {
+  width: 300px;
+  height: 200px;
+}
 .locations {
   height: 500px;
   width: 1200px;
@@ -80,7 +85,7 @@ nav {
   background-color: black;
   opacity: 1;
   margin: 15px 20px;
-  
+
 }
 
 .stores {
