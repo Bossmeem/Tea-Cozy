@@ -11,9 +11,7 @@ body {
   text-align: center;
 }
 
-div {
-  border: 1px dotted red;
-}
+
 
 header {
   display: flex;
@@ -48,7 +46,7 @@ nav {
 
 .mission {
   display: flex;
-  margin-top: 69px;
+  margin-top: 63px;
   width: 1200px;
   height: 700px;
   background-image: url("../Images/img-mission-background.jpg");
@@ -89,6 +87,7 @@ nav {
   width: 1200px;
   background-image: url("../Images/img-locations-background.jpg");
   padding-bottom: 70px;
+  margin-top: 100px;
 }
 
 .local {
@@ -117,14 +116,11 @@ span h2 {
   height: 200px;
 }
 
-#copyright {
-  display: flex;
-  text-align: left;
-  justify-content: flex-start;
+footer {
   width: 100%;
-  z-index: 5;
 }
 
-.copy {
+#copyright {
+  text-align: left;
   margin-left: 20px;
 }
