@@ -62,14 +62,20 @@ nav {
 }
 
 .tea {
-  display: flex;
   width: 1000px;
 }
 
-.choices {
-  width: 300px;
-  height: 200px;
+.TM {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  flex: 1 1 1000px;
 }
+
+.choices h4 {
+  margin: 10px auto;
+}
+
 .locations {
   height: 500px;
   width: 1200px;
